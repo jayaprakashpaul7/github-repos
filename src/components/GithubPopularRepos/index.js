@@ -45,7 +45,7 @@ class GithubPopularRepos extends Component {
   }
 
   updateId = id => {
-    this.setState({activeOptionId: id}, this.getPopularRepos)
+    this.setState({activeOptionId: id, isLoading: true}, this.getPopularRepos)
   }
 
   render() {
