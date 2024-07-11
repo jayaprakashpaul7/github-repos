@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.lang-li {
+  list-style-type: none;
+  display: flex;
+  margin-right: 20px;
+  border: 1px;
+  border-radius: 50px;
+}
+button {
+  border: none;
+  background-color: white;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}

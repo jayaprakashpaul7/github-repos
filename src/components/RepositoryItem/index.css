@@ -1,0 +1,24 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  text-align: center;
+  background-color: #f8f8ff;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.avatar {
+  height: 70px;
+  width: 70px;
+}
+.stars-c {
+  display: flex;
+  flex-direction: column;
+}
+.div-child {
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  max-width: 15px;
+}
